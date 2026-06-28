@@ -1,0 +1,16 @@
+h1{
+    color: tomato;
+    background-color: rgb(143, 207, 207);
+}
+
+p{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border: solid rgb(0, 60, 255) 2px;
+    background-color: red;
+    scale: 1;
+    transition: all linear 0.2s;
+}
+
