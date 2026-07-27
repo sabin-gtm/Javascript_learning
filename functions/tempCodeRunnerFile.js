@@ -7,4 +7,4 @@ yield PublicKeyCredential(
     algorithm,
     extractable,
 
-    
+)

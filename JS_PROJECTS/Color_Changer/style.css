@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/bcg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo{
+    width: 240px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #ffff;
+}
+
+.content h1{
+    font-size: 64;
+    font-weight: 500;
+}
+
+span{
+    color: #5ecae6;
+}
+
+.container button{
+    background-color: transparent;
+    border: 2px solid rgb(155, 214, 224);
+    outline: none;
+    padding: 12px 25px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container button img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.launchTime {
+    display: flex;
+}
+
+.launchTime  div {
+    flex-basis: 100px;
+}
+
+.launchTime  div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.rocket {
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+       100%{
+        bottom: 100%;
+        opacity: 1;
+    }
+}
+
+.buttons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
