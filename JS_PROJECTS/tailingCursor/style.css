@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  cursor: none;
+}
+
+.smallCursor {
+  width:10px;
+  height: 10px;
+  background-color: navy;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.shadowCursor {
+  width: 80px;
+  height: 80px;
+  background-color: navy;
+  border-radius: 100%;
+  filter: blur(35px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}

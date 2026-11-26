@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn {
+    margin: 50px;
+    padding: 10px 20px;
+    font-size: 40px;
+}
+
+.cBtn {
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.modalContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.modalContent {
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
